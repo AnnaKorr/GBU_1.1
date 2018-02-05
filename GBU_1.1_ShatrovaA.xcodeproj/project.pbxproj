@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		1810617B20277D390081F3A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810617A20277D390081F3A8 /* AppDelegate.swift */; };
-		1810617D20277D390081F3A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810617C20277D390081F3A8 /* ViewController.swift */; };
 		1810618020277D390081F3A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1810617E20277D390081F3A8 /* Main.storyboard */; };
 		1810618320277D390081F3A8 /* GBU_1_1_ShatrovaA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1810618120277D390081F3A8 /* GBU_1_1_ShatrovaA.xcdatamodeld */; };
 		1810618520277D390081F3A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1810618420277D390081F3A8 /* Assets.xcassets */; };
 		1810618820277D390081F3A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1810618620277D390081F3A8 /* LaunchScreen.storyboard */; };
+		18BF1F4B2027B77600168D6D /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF1F4A2027B77600168D6D /* FriendsTableViewController.swift */; };
+		18BF1F4D2027B78800168D6D /* GroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF1F4C2027B78800168D6D /* GroupsTableViewController.swift */; };
+		18BF1F4F2027BACE00168D6D /* AuthWKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF1F4E2027BACE00168D6D /* AuthWKViewController.swift */; };
+		99B0422889312B9B605ECABB /* Pods_GBU_1_1_ShatrovaA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0F872283D1AEB379109D25 /* Pods_GBU_1_1_ShatrovaA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1810617720277D390081F3A8 /* GBU_1.1_ShatrovaA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBU_1.1_ShatrovaA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1810617A20277D390081F3A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1810617C20277D390081F3A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1810617F20277D390081F3A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1810618220277D390081F3A8 /* GBU_1_1_ShatrovaA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GBU_1_1_ShatrovaA.xcdatamodel; sourceTree = "<group>"; };
 		1810618420277D390081F3A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1810618720277D390081F3A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1810618920277D390081F3A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BF1F4A2027B77600168D6D /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		18BF1F4C2027B78800168D6D /* GroupsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsTableViewController.swift; sourceTree = "<group>"; };
+		18BF1F4E2027BACE00168D6D /* AuthWKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthWKViewController.swift; sourceTree = "<group>"; };
+		8787305B605178EE824ECA05 /* Pods-GBU_1.1_ShatrovaA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBU_1.1_ShatrovaA.release.xcconfig"; path = "Pods/Target Support Files/Pods-GBU_1.1_ShatrovaA/Pods-GBU_1.1_ShatrovaA.release.xcconfig"; sourceTree = "<group>"; };
+		DB84943D163DC4BAC3CBE945 /* Pods-GBU_1.1_ShatrovaA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBU_1.1_ShatrovaA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GBU_1.1_ShatrovaA/Pods-GBU_1.1_ShatrovaA.debug.xcconfig"; sourceTree = "<group>"; };
+		EF0F872283D1AEB379109D25 /* Pods_GBU_1_1_ShatrovaA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GBU_1_1_ShatrovaA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99B0422889312B9B605ECABB /* Pods_GBU_1_1_ShatrovaA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				1810617920277D390081F3A8 /* GBU_1.1_ShatrovaA */,
 				1810617820277D390081F3A8 /* Products */,
+				DD05F95D370CC666FA50F765 /* Pods */,
+				4659EDBCD4B628DCB0DCB56D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				1810617A20277D390081F3A8 /* AppDelegate.swift */,
-				1810617C20277D390081F3A8 /* ViewController.swift */,
+				18BF1F4E2027BACE00168D6D /* AuthWKViewController.swift */,
+				18BF1F4C2027B78800168D6D /* GroupsTableViewController.swift */,
+				18BF1F4A2027B77600168D6D /* FriendsTableViewController.swift */,
 				1810617E20277D390081F3A8 /* Main.storyboard */,
 				1810618420277D390081F3A8 /* Assets.xcassets */,
 				1810618620277D390081F3A8 /* LaunchScreen.storyboard */,
@@ -67,6 +80,23 @@
 			path = GBU_1.1_ShatrovaA;
 			sourceTree = "<group>";
 		};
+		4659EDBCD4B628DCB0DCB56D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF0F872283D1AEB379109D25 /* Pods_GBU_1_1_ShatrovaA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD05F95D370CC666FA50F765 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB84943D163DC4BAC3CBE945 /* Pods-GBU_1.1_ShatrovaA.debug.xcconfig */,
+				8787305B605178EE824ECA05 /* Pods-GBU_1.1_ShatrovaA.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1810618C20277D390081F3A8 /* Build configuration list for PBXNativeTarget "GBU_1.1_ShatrovaA" */;
 			buildPhases = (
+				F5F81DB9EA7CC0967532021F /* [CP] Check Pods Manifest.lock */,
 				1810617320277D390081F3A8 /* Sources */,
 				1810617420277D390081F3A8 /* Frameworks */,
 				1810617520277D390081F3A8 /* Resources */,
+				F94EB84EAC97065F63AF1EDD /* [CP] Embed Pods Frameworks */,
+				46F9BEA363098A1DAC581915 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,13 +167,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46F9BEA363098A1DAC581915 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GBU_1.1_ShatrovaA/Pods-GBU_1.1_ShatrovaA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F81DB9EA7CC0967532021F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GBU_1.1_ShatrovaA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F94EB84EAC97065F63AF1EDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GBU_1.1_ShatrovaA/Pods-GBU_1.1_ShatrovaA-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GBU_1.1_ShatrovaA/Pods-GBU_1.1_ShatrovaA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1810617320277D390081F3A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1810617D20277D390081F3A8 /* ViewController.swift in Sources */,
+				18BF1F4F2027BACE00168D6D /* AuthWKViewController.swift in Sources */,
+				18BF1F4D2027B78800168D6D /* GroupsTableViewController.swift in Sources */,
 				1810618320277D390081F3A8 /* GBU_1_1_ShatrovaA.xcdatamodeld in Sources */,
+				18BF1F4B2027B77600168D6D /* FriendsTableViewController.swift in Sources */,
 				1810617B20277D390081F3A8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,6 +290,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				"DEBUG_INFORMATION_FORMAT[sdk=iphonesimulator*]" = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -276,6 +368,7 @@
 		};
 		1810618D20277D390081F3A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB84943D163DC4BAC3CBE945 /* Pods-GBU_1.1_ShatrovaA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +383,7 @@
 		};
 		1810618E20277D390081F3A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8787305B605178EE824ECA05 /* Pods-GBU_1.1_ShatrovaA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
