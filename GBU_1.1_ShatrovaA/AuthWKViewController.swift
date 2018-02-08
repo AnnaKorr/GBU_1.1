@@ -11,18 +11,16 @@ import WebKit
 
 class AuthWKViewController: UIViewController {
 
-    @IBOutlet weak var myWKView: WKWebView! {
-        didSet {
-            myWKView.navigationDelegate = self
-        }
-    }
+    @IBOutlet weak var myWKView: WKWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // let vkURL = URL(string: "https://google.com")
+        
         var vkFields = URLComponents()
         vkFields.scheme = "https"
-        vkFields.host = "oath.vk.com"
+        vkFields.host = "oauth.vk.com"
         vkFields.path = "/authorize"
         vkFields.queryItems = [
             URLQueryItem(name: "client_id", value: "6352014"),
@@ -33,9 +31,11 @@ class AuthWKViewController: UIViewController {
             URLQueryItem(name: "v", value: "5.71")
         ]
         
-        let vkRequest = URLRequest(url: vkFields.url!)
+        let vkURLRequest = URLRequest(url: vkFields.url!)
         
-        myWKView.load(vkRequest)
+       // let vkURLRequest = URLRequest(url: vkURL!)
+
+        myWKView.load(vkURLRequest)
 
     }
 
@@ -67,3 +67,4 @@ extension AuthWKViewController: WKNavigationDelegate {
     }
     
 }
+
